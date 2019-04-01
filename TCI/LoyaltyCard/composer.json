@@ -1,0 +1,22 @@
+{
+    "name": "tci/module-loyaltycard",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "thainv.developer@gmail.com",
+            "name": "JackNguyen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "TCI\\LoyaltyCard\\": ""
+        }
+    }
+}

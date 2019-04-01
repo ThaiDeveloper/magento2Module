@@ -1,0 +1,10 @@
+<?php
+/* @var \TCI\LoyaltyCard\Block\Adminhtml\Order\View\LoyaltyCardNumber $block */
+$cardNumber = $block->getLoyaltyCardNumberFromOrder();
+?>
+<?php if ($cardNumber): ?>
+    <tr>
+        <th><?= $block->escapeHtml(__('Loyalty Card Number')) ?></th>
+        <td><?= $block->escapeHtml($cardNumber) ?></td>
+    </tr>
+<?php endif; ?>
